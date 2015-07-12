@@ -32,11 +32,13 @@
 <a id="welcome-to-coding-in-africa" class="anchor" href="#welcome-to-coding-in-africa" aria-hidden="true"><span class="octicon octicon-link"></span></a>Welcome to Coding in Africa</h3>
       </section>
       {% for post in site.posts %}
-      {{ post.title }}
-      <p>
-        {{ post.content }}
-      </p>
-      {% endfor %}
+      <section>
+        <h3>{{ post.title }}</h3>
+        <p>
+          {{ post.content }}
+        </p>
+        {% endfor %}
+      </section>
     </div>
     <footer>
       <p>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></p>
