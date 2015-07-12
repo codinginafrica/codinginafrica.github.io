@@ -1,5 +1,5 @@
 ---
-Title: "podcast init"
+title: "podcast init"
 ---
 
 This is the first episode of Coding in Africa.  Enjoy!
