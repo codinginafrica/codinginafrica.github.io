@@ -3,7 +3,7 @@ Coding in Africa - Tech Podcast
 
 <a href="http://feeds.feedburner.com/CodingInAfrica" title="Subscribe to my feed" rel="alternate" type="application/rss+xml"><img src="//feedburner.google.com/fb/images/pub/feed-icon32x32.png" alt="" style="border:0"/></a><a href="http://feeds.feedburner.com/CodingInAfrica" title="Subscribe to my feed" rel="alternate" type="application/rss+xml">Subscribe in a reader</a>
 
-
+We are also on iTunes!
 
 ---
 title: "Episode 003 - In the nic of time"
