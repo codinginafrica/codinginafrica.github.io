@@ -1,56 +1,13 @@
 ---
+layout: default
 ---
 
-<!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Codinginafrica.GitHub.io by codinginafrica</title>
-    
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/github-dark.css">
-    <script src="javascripts/scale.fix.js"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    
-    <!--[if lt IE 9]>
-        <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-        <![endif]-->
-  </head>
-  <body>
-    <div class="wrapper">
-      <header class="without-description">
-        <h1>Coding in Africa</h1>
-        <p></p>
-        <p class="view"><a href="https://github.com/codinginafrica">View the Project on GitHub <small>codinginafrica</small></a></p>
-        <ul>
-          <li class="single"><a href="https://github.com/codinginafrica/codinginafrica.github.io">View On <strong>GitHub</strong></a></li>
-        </ul>
-      </header>
-      <section>
-        <h3>
-          <a id="welcome-to-coding-in-africa" class="anchor" href="#welcome-to-coding-in-africa" aria-hidden="true"><span class="octicon octicon-link"></span></a>Welcome to Coding in Africa</h3>
-      </section>
-      
-      <section>
-        <a href="http://feeds.feedburner.com/CodingInAfrica" title="Subscribe to my feed" rel="alternate" type="application/rss+xml"><img src="//feedburner.google.com/fb/images/pub/feed-icon32x32.png" alt="" style="border:0"/></a><a href="http://feeds.feedburner.com/CodingInAfrica" title="Subscribe to my feed" rel="alternate" type="application/rss+xml">Subscribe in a reader</a>
-        
-        We are also on iTunes!
-      </section>
-      
-      {% for post in site.posts %}
-      <section>
-        <h3>{{ post.title }}</h3>
-        <p>
-          {{ post.content }}
-        </p>
-      </section>
-      {% endfor %}
-    </div>
-    <footer>
-      <p>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></p>
-    </footer>
-    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
-    
-  </body>
-</html>
+{% for post in site.posts %}
+<section>
+  <h2>{{ post.title }}</h2>
+  <p>
+    {{ post.content }}
+  </p>
+  <iframe width="100%" height="20" scrolling="no" frameborder="no" src="{{ post.episode_url }}&amp;color=ff5500&amp;inverse=false&amp;auto_play=false&amp;show_user=true"></iframe>
+</section>
+{% endfor %}
